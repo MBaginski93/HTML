@@ -1,0 +1,19 @@
+.container {
+  width: 400px;
+  border: 2px solid indigo;
+}
+.one {
+  width: 350px;
+  border: 1px solid red;
+  padding: 8px;
+}
+/*
+*Box-sizing - dzieki tej komendzie sterujemy wielkością boxa,
+przyjmuje on wartości content-box oraz border-box.
+Content-box nie wlicza margin, border, oraz padding do width oraz height elemenntu
+Border-box wlicza te wszystkie wartości do wys. oraz szer. elemetu.
+
+*Margin - atrybut ten ustawia odległość od strony HTML lub innego elementu
+do bordera danego bloku.
+
+*Padding - ustawia on odległość od borderu elementu do jego zawartości. */

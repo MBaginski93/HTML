@@ -1,0 +1,21 @@
+#rocks {
+  width: 50%;
+  height: 350px;
+  background-color: indigo;
+  background-image: url("/home/maciek/Pulpit/CodersLab/github/BIA_FRO_S_01_HTML/1_Zadania/Dzien_1/05_Kolor_i_tlo/images/rocks.jpg");
+  background-size: contain;
+  background-position: center;
+}
+#grunwald {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  background-image: url("/home/maciek/Pulpit/CodersLab/github/BIA_FRO_S_01_HTML/1_Zadania/Dzien_1/05_Kolor_i_tlo/images/grunwald.jpg");
+  background-size: cover;
+  background-position: center;
+}
+body {
+  background-color: brown;
+  background-image: url("/home/maciek/Pulpit/CodersLab/github/BIA_FRO_S_01_HTML/1_Zadania/Dzien_1/05_Kolor_i_tlo/images/mountains.jpg");
+  background-size: cover;
+}

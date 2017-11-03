@@ -1,0 +1,40 @@
+* {
+  font-style: arial, sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+header, footer {
+  width: 100%;
+  background-color: navy;
+}
+header {
+  background-image: url("/home/maciek/Pulpit/CodersLab/github/BIA_FRO_S_01_HTML/1_Zadania/Dzien_3/11_Tworzenie_ukladu_strony/images/night-sky.jpg");
+  background-position: top;
+  background-size: cover;
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+}
+.col3 {
+  border: 0;
+  padding: 0;
+  width: 33%;
+  display: inline-block;
+}
+.col2 {
+  width: 49%;
+  display: inline-block;
+}
+.row {
+  margin top: 5px;
+  margin-bottom: 5px;
+}
+.row-b {
+  background-color: lightblue;
+}
+.row-l {
+  background-color: blue;
+}

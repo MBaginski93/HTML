@@ -1,0 +1,24 @@
+p {
+  background-color: red;
+}
+#inny {
+  background-color: blue;
+}
+.blog {
+  background-color: beige;
+}
+div.blog {
+  background-color: pink;
+}
+div#rodzic  p {
+  background-color: orange;
+}
+div#rodzic > p {
+  background-color: green;
+}
+div#other + p {
+   background-color: brown;
+}
+p#inny ~ p {
+  background-color: purple;
+}

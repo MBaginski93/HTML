@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-style: arial, sans-serif;
+}
+header, section {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.main_width {
+  width: 800px;
+  margin: 0 auto;
+}
+.main_width::after {
+  display: block;
+  clear: both;
+  content: " ";
+}
+header h1 {
+  display: inline-block;
+}
+header ul {
+  display: inline-block;
+  float: right;
+}
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+img {
+  width: 300px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+h2 {
+  padding: 10px;
+}
+main p {
+  line-height: 20px;
+  text-align: justify;
+}
+.col3 {
+  width: 255px;
+  height: 180px;
+  background-color: white;
+  margin: 10px 0px 10px 10px;
+  float: left;
+}
+footer p {
+  padding: 10px;
+}
+footer span {
+  float: right;
+}

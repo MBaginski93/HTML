@@ -1,0 +1,21 @@
+/* zad 4 */
+p {
+  font-size: 12px !important;
+}
+p{
+  font-size: 40px;
+}
+/* zad 2 */
+p, span {
+  background-color: yellow;
+}
+/* zad 3 */
+#identyfikator {
+  background-color: red;
+}
+div {
+  background-color: blue;
+}
+.klasa {
+  background-color: green;
+}
